@@ -1,0 +1,96 @@
+body {
+    background-color: #2c2c4a;
+    color: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header.header-class {
+    background-color: #40407a;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav.nav-class {
+    background-color: #33334d;
+    color: #bbb;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+nav.nav-class a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav.nav-class a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+h1.title-class, h2.section-title-class {
+    color: #aaa; 
+}
+
+p.text-class, a {
+    color: #ddd; 
+}
+
+img.image-class {
+    border: 4px solid #4c4878;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+form.form-class {
+    background-color: #33334d;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+input.input-class, input.button-class {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input.button-class {
+    background-color: #40407a;
+    color: #fff;
+    border: none;
+}
+
+input.button-class:hover {
+    background-color: #57556e; /* Darker purple for interaction */
+}
+
+footer.footer-class {
+    background-color: #40407a; /* Matching the header for consistency */
+    color: #eee;
+    padding: 20px 0;
+    position: relative; /* Ensuring the footer is at the bottom */
+    margin-top: 20px;
+}
+
+/* Ensuring content is centered and responsive */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    header.header-class, nav.nav-class, footer.footer-class {
+        padding: 10px 0;
+    }
+
+    nav.nav-class a {
+        display: block;
+        margin: 10px auto; /* Centering links on smaller screens */
+    }
+}
